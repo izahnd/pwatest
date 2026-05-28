@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "timestamp": 1779953841443,
+  "index": "/pwatest/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwatest/favicon.ico",
+        "/pwatest/index.html",
+        "/pwatest/main-PXFEFTGA.js",
+        "/pwatest/manifest.webmanifest",
+        "/pwatest/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwatest/icons/icon-128x128.png",
+        "/pwatest/icons/icon-144x144.png",
+        "/pwatest/icons/icon-152x152.png",
+        "/pwatest/icons/icon-192x192.png",
+        "/pwatest/icons/icon-384x384.png",
+        "/pwatest/icons/icon-512x512.png",
+        "/pwatest/icons/icon-72x72.png",
+        "/pwatest/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pwatest/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/pwatest/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/pwatest/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/pwatest/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/pwatest/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/pwatest/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/pwatest/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/pwatest/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/pwatest/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/pwatest/index.html": "46ec33ef5d9c073a8ca40ff643984cafe9987d97",
+    "/pwatest/main-PXFEFTGA.js": "c9d0448b74bbc81bbd7b22ec66c0ff1be80d690f",
+    "/pwatest/manifest.webmanifest": "184a76c44f4919622ec50528cf0e7d934838a878",
+    "/pwatest/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
