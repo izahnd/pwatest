@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/pwatest/browser",
+     "target": "testpwa",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

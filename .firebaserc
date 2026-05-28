@@ -1,0 +1,15 @@
+{
+  "projects": {
+
+    "default": "fir-e7b7e"
+  },
+  "targets": {
+    "fir-e7b7e": {
+      "hosting": {
+        "testpwa": [
+          "testpwa"
+        ]
+      }
+    }
+  }
+}
