@@ -6,8 +6,8 @@
   "targets": {
     "fir-e7b7e": {
       "hosting": {
-        "testpwa": [
-          "testpwa"
+        "pwa3891": [
+          "pwa3891"
         ]
       }
     }
